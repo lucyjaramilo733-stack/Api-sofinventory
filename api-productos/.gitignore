@@ -1,0 +1,5 @@
+# Dependencias de Node (pesan mucho, no se suben)
+node_modules/
+
+# Variables de entorno (contiene contraseñas, nunca se sube)
+.env
