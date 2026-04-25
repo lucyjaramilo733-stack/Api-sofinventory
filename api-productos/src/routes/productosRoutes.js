@@ -3,7 +3,7 @@
 const express = require('express');
 const router = express.Router();
 
-// Importamos los controladores (funciones que ya creaste)
+// Importamos los controladores
 const {
     obtenerProductos,
     obtenerProductoPorId,
@@ -17,8 +17,7 @@ const {
  * y verifica que el método HTTP sea GET.
  * 
  * Si alguien intenta POST, PUT, PATCH o DELETE, recibe un error 405.
- * Esto es CRUCIAL para tu proyecto porque la otra empresa SOLO debe consultar.
- */
+ * Esto es CRUCIAL para el proyecto porque la otra empresa externa SOLO puede consultar
 router.use((req, res, next) => {
     // Lista de métodos permitidos (solo GET)
     const metodosPermitidos = ['GET'];

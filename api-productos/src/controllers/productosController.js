@@ -13,8 +13,6 @@ const pool = require('../config/db');
  * 
  * Cada función aquí corresponde a un endpoint de la API.
  */
-
-
 /**
  * GET /api/productos
  * 
