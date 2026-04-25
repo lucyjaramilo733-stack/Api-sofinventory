@@ -126,7 +126,6 @@ const obtenerProductos = async (req, res) => {
   }
 };
 
-
 /**
  * GET /api/productos/:id
  * 
@@ -206,7 +205,6 @@ const obtenerProductoPorId = async (req, res) => {
   }
 };
 
-
 /**
  * GET /api/categorias
  * 
@@ -242,7 +240,6 @@ const obtenerCategorias = async (req, res) => {
     });
   }
 };
-
 
 // Exportamos las tres funciones para usarlas en las rutas
 module.exports = {
